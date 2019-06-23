@@ -1,0 +1,61 @@
+# Metadata for Average Monthly Household Income by Household Size and Type of Dwelling
+---
+Identifier: 'a0f73748-d9c2-437d-ac54-d8d7c3524312'
+Name: 'average-monthly-household-income-by-household-size-and-type-of-dwelling'
+Title: 'Average Monthly Household Income by Household Size and Type of Dwelling'
+Description: 'The Singapore Department of Statistics undertakes the Household Expenditure
+  Survey (HES) once in 5 years to collect detailed information from resident households
+  in Singapore. The latest HES was conducted from Oct 2012 to Sep 2013. Topics covered
+  include household consumption expenditure, households'' income, socio-economic characteristics
+  and ownership of selected consumer durables.'
+Topics:
+  - 'Society'
+Keywords:
+  - 'Household Expenditure Survey'
+  - 'Household Size'
+  - 'Income from All Sources'
+  - 'Type of Dwelling'
+Publisher:
+  Name: 'Ministry of Trade and Industry - Department of Statistics'
+  Admin 1:
+    Name: 'SingStat Info'
+    Department: 'Statistics Information Services'
+    Email: 'info@singstat.gov.sg'
+Sources:
+  - 'Ministry of Trade and Industry - Department of Statistics'
+Source Url: 'http://www.tablebuilder.singstat.gov.sg/publicfacing/createSpecialTable.action?refId=4106&exportType=csv'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Other'
+Coverage: '2013-01-01 to 2013-12-31'
+Last Updated: '2019-01-02T16:55:03.234559'
+Resources:
+  -
+    Identifier: 'c8348b33-9f6d-471e-8652-a69286af3f79'
+    Title: 'Average MHI by Household Size and Type of Dwelling'
+    Url: 'https://storage.data.gov.sg/average-monthly-household-income-by-household-size-and-type-of-dwelling/resources/average-mhi-by-household-size-and-type-of-dwelling-2019-01-02T16-55-02Z.csv'
+    Format: 'CSV'
+    Coverage: '2013-01-01 to 2013-12-31'
+    Last Updated: '2019-01-02T16:55:02.893572'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'level_1'
+        Title: 'Type of Dwelling'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'level_2'
+        Title: 'Household Size'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'value'
+        Title: 'Value'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Dollar'

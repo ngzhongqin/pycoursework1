@@ -1,0 +1,108 @@
+# Metadata for Sample Household Survey: Economically Active HDB Resident Population, by Ethnic Group and Flat Type
+---
+Identifier: '65bdeb27-1d7b-42a2-856f-600bf2374b5c'
+Name: 'economically-active-hdb-population-by-ethnic-group-and-flat-type'
+Title: 'Sample Household Survey: Economically Active HDB Resident Population, by Ethnic
+  Group and Flat Type'
+Description:
+  - 'Data is derived from the Sample Household Survey (SHS) which is conducted once
+    every 5 years. Data is based on HDB resident population aged 15 years and above
+    rounded off to the nearest 1,000.'
+  - ''
+  - 'HDB resident population refers to Singapore citizens and Singapore permanent
+    residents (SPRs) residing in HDB flats, excluding subtenants.'
+  - ''
+  - 'Unemployed persons refer to persons aged 15 years and over who are currently
+    not working but were actively looking for work at the point of survey. They include
+    persons who are not working but are taking steps to start their own business or
+    taking up a new job after the survey period.'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'Demographics'
+  - 'Employment'
+  - 'Ethnic Group'
+  - 'Flat Type'
+  - 'HDB'
+  - 'Jobs'
+  - 'Manpower'
+  - 'Population'
+  - 'Sample Household Survey'
+Publisher:
+  Name: 'Housing and Development Board'
+  Admin 1:
+    Name: 'Michelle Tay'
+    Department: 'HDB'
+    Email: 'michelle_mb_tay@hdb.gov.sg'
+  Admin 2:
+    Name: 'Toh Xue Qin'
+    Department: 'HDB'
+    Email: 'toh_xue_qin@hdb.gov.sg'
+Sources:
+  - 'Housing and Development Board'
+Source Url: 'http://www.hdb.gov.sg/cs/infoweb/about-us/news-and-publications/publications/hdb-publications'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Other'
+Coverage: '2008-01-01 to 2013-12-31'
+Last Updated: '2017-05-05T07:34:16.876165'
+Resources:
+  -
+    Identifier: 'c00d960a-8ddd-4932-8ae4-a85aaac8d613'
+    Title: 'Economically Active HDB Resident Population by Ethnic Group'
+    Url: 'https://storage.data.gov.sg/economically-active-hdb-population-by-ethnic-group-and-flat-type/resources/economically-active-hdb-resident-population-by-ethnic-group-2017-05-05T07-34-09Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2013-12-31'
+    Last Updated: '2017-05-05T07:34:09.098701'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'SHS Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'ethnic_group'
+        Title: 'Ethnic Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'economically_active_status'
+        Title: 'Economically Active Status'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no'
+        Title: 'Number of Persons'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Persons'
+  -
+    Identifier: 'a2b6cda2-b4ae-439a-9ff3-154b8fcd343f'
+    Title: 'Economically Active HDB Resident Population by Flat Type'
+    Url: 'https://storage.data.gov.sg/economically-active-hdb-population-by-ethnic-group-and-flat-type/resources/economically-active-hdb-resident-population-by-flat-type-2017-05-05T07-34-15Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2013-12-31'
+    Last Updated: '2017-05-05T07:34:15.998117'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'SHS Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'flat_type'
+        Title: 'Flat Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'economically_active_status'
+        Title: 'Economically Active Status'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no'
+        Title: 'Number of Persons'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Persons'

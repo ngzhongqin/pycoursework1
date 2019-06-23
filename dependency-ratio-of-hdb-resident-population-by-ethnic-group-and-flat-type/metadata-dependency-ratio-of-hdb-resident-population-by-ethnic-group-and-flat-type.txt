@@ -1,0 +1,154 @@
+# Metadata for Sample Household Survey: Dependency Ratio of HDB Resident Population, by Ethnic Group and Flat Type
+---
+Identifier: 'afd934f4-8b93-4f92-a8d3-8290fec9b646'
+Name: 'dependency-ratio-of-hdb-resident-population-by-ethnic-group-and-flat-type'
+Title: 'Sample Household Survey: Dependency Ratio of HDB Resident Population, by Ethnic
+  Group and Flat Type'
+Description:
+  - 'Data is derived from the Sample Household Survey (SHS) which is conducted once
+    every 5 years.'
+  - ''
+  - 'HDB resident population refers to Singapore citizens and Singapore permanent
+    residents (SPRs) residing in HDB flats, excluding subtenants.'
+  - ''
+  - 'Data is based on per 100 population aged 15-64'
+  - ''
+  - 'The old-age dependency ratio is a measure of the relative size of the elderly
+    resident population aged 65 years and above to that of the resident population
+    aged between 15 years and 64 years.'
+  - ''
+  - 'The child dependency ratio is a measure of the relative size of non-working age
+    resident population aged below 15 years to that of the resident population aged
+    between 15 years and 64 years.'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'Ageing Population'
+  - 'Children'
+  - 'Demographics'
+  - 'Dependency Ratio'
+  - 'Elderly'
+  - 'Ethnic Group'
+  - 'Flat Type'
+  - 'HDB'
+  - 'Housing'
+  - 'Population'
+  - 'Sample Household Survey'
+Publisher:
+  Name: 'Housing and Development Board'
+  Admin 1:
+    Name: 'Michelle Tay'
+    Department: 'HDB'
+    Email: 'michelle_mb_tay@hdb.gov.sg'
+  Admin 2:
+    Name: 'Toh Xue Qin'
+    Department: 'HDB'
+    Email: 'toh_xue_qin@hdb.gov.sg'
+Sources:
+  - 'Housing and Development Board'
+Source Url: 'http://www.hdb.gov.sg/cs/infoweb/about-us/news-and-publications/publications/hdb-publications'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Other'
+Coverage: '2008-01-01 to 2013-12-31'
+Last Updated: '2017-05-05T07:34:44.374626'
+Resources:
+  -
+    Identifier: '4b8f44f0-d58c-431a-92a0-82b69e0ff7d1'
+    Title: 'Old-age Dependency Ratio of HDB Resident Population by Ethnic Group'
+    Url: 'https://storage.data.gov.sg/dependency-ratio-of-hdb-resident-population-by-ethnic-group-and-flat-type/resources/old-age-dependency-ratio-of-hdb-resident-population-by-ethnic-group-2017-05-05T07-34-08Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2013-12-31'
+    Last Updated: '2017-05-05T07:34:08.967778'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'SHS Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'ethnic_group'
+        Title: 'Ethnic Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'old_age_depndency_ratio'
+        Title: 'Old-age Dependency Ratio'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Ratio'
+  -
+    Identifier: '2ad70718-f96b-45a3-be9d-3fdc11630441'
+    Title: 'Old-age Dependency Ratio of HDB Resident Population by Flat Type'
+    Url: 'https://storage.data.gov.sg/dependency-ratio-of-hdb-resident-population-by-ethnic-group-and-flat-type/resources/old-age-dependency-ratio-of-hdb-resident-population-by-flat-type-2017-05-05T07-34-24Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2013-12-31'
+    Last Updated: '2017-05-05T07:34:24.303631'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'SHS Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'flat_type'
+        Title: 'Flat Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'old_age_dependency_ratio'
+        Title: 'Old-age Dependency Ratio'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Ratio'
+  -
+    Identifier: '9ecb8812-feab-4ee2-95a3-a830c60ab366'
+    Title: 'Child Dependency Ratio of HDB Resident Population by Ethnic Group'
+    Url: 'https://storage.data.gov.sg/dependency-ratio-of-hdb-resident-population-by-ethnic-group-and-flat-type/resources/child-dependency-ratio-of-hdb-resident-population-by-ethnic-group-2017-05-05T07-34-37Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2013-12-31'
+    Last Updated: '2017-05-05T07:34:37.044805'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'SHS Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'ethnic_group'
+        Title: 'Ethnic Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'child_dependency_ratio'
+        Title: 'Child Dependency Ratio'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Ratio'
+  -
+    Identifier: '9d4d7eac-cecb-47ec-b561-1977e391ec2e'
+    Title: 'Child Dependency Ratio of HDB Resident Population by Flat Type'
+    Url: 'https://storage.data.gov.sg/dependency-ratio-of-hdb-resident-population-by-ethnic-group-and-flat-type/resources/child-dependency-ratio-of-hdb-resident-population-by-flat-type-2017-05-05T07-34-44Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2013-12-31'
+    Last Updated: '2017-05-05T07:34:44.008009'
+    Schema:
+      -
+        Name: 'shs_year'
+        Title: 'SHS Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'flat_type'
+        Title: 'Flat Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'child_dependency_ratio'
+        Title: 'Child Dependency Ratio'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Ratio'
